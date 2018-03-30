@@ -1,0 +1,53 @@
+//组织类型树形结构
+.orgtree,.causetree{
+    .ivu-tree-title-selected{
+        color:#396DD6 !important;
+    }
+    margin-top: 20px;
+    li ul{
+        background: url(../assets/treeview-default-line.gif) 0 0 no-repeat;
+        margin-top: -8px;
+    }
+    li ul:last-of-type{
+        background: url(../assets/treeview-default-line.gif) 0 0 no-repeat;
+        margin-top: -8px;
+        background-position:0 -1762px;
+    }
+    .ivu-tree-title{
+        padding-left: 30px;
+        color: #4e4e50;
+    }
+    .ivu-icon-arrow-right-b{
+        background: url(../assets/tree.png) no-repeat;
+        background-position: -29px -28px;
+        width: 18px;
+        height: 20px;
+    }
+    .ivu-icon-arrow-right-b:before{
+        content: "";
+    }
+    .ivu-tree-arrow-open .ivu-icon-arrow-right-b{
+        background: url(../assets/tree.png) no-repeat;
+        background-position: 0 -28px;
+        width: 18px;
+        height: 20px;
+    }
+    .ivu-tree>ul>li>.ivu-icon-arrow-right-b{
+        background: url(../assets/tree.png) no-repeat;
+        background-position: -29px -28px;
+        width: 18px;
+        height: 20px;
+    }
+    .ivu-tree-arrow-open i{
+        transform:none;
+    }
+    .ivu-tree-arrow i{
+        -webkit-transition:none;
+    }
+    .ivu-tree-arrow{
+        width: initial;
+    }
+    
+}
+
+
